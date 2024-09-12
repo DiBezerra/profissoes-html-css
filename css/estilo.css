@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(95, 152, 160);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    /* "margin" <-- é a parte mais a fora da tela, "padding" <-- é a parte dentro da margem" */
+
+}
+
+.container{
+    display: flex; /* "Block" <-- deixa a imagem bloqueada presa,  "flex" <-- deixa a imagem livre para mudarmos a posição*/
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+
+  
+}
+
+.profissoes{
+    margin: 10px;
+    background-color: blueviolet;
+    border: 10px double burlywood;/**/
+    border-radius: 100px; /* arredondamento da borda*/
+    padding: 20px;  /*espaço interno*/
+    box-shadow: 0px 0px 0px 10px rgb(26, 35, 85);
+    width: 20%;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
