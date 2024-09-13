@@ -1,13 +1,20 @@
 body{
-    background-color: rgb(95, 152, 160);
-    font-family: 'Courier New', Courier, monospace;
     margin: 0;
-    padding: 0;
+    padding: 50px;
     /* "margin" <-- é a parte mais a fora da tela, "padding" <-- é a parte dentro da margem" */
-
+    background-image: url('../img/43676156724_f91c335b8a_b.jpg');
+    background-size: 110%;
+    background-attachment: fixed;
+    background-repeat: no-repeat ;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
 }
 
 .container{
+    color:rgba(50, 37, 87, 0.993);
     display: flex; /* "Block" <-- deixa a imagem bloqueada presa,  "flex" <-- deixa a imagem livre para mudarmos a posição*/
     flex-wrap: wrap;
     justify-content: space-around;
@@ -30,4 +37,5 @@ body{
 h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    color: blueviolet;
 }
