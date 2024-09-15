@@ -39,3 +39,39 @@ h1{
     text-align: center;
     color: blueviolet;
 }
+
+form{
+
+    
+        padding: 20px;
+        background-color: chocolate;
+        color: #fff;
+        border-radius: 4px;
+        width: 80%; /* Ajuste o valor conforme necessário */
+        max-width: 400px; /* Ajuste o valor conforme necessário */
+        margin: 0 auto; /* Centraliza horizontalmente */
+        display: flex;
+        flex-direction: column; /* Organiza os elementos em colunas */
+        gap: 15px; /* Espaçamento entre os elementos */
+    
+    
+    input, select, textarea, button {
+        width: 100%; /* Faz com que todos os campos ocupem a largura completa do formulário */
+        padding: 10px;
+        border-radius: 4px;
+        border: none; /* Remove bordas padrão */
+    }
+    
+    input[type="submit"], button {
+        background-color: #fff;
+        color: chocolate;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    input[type="submit"]:hover, button:hover {
+        background-color: #f0e0d6; /* Cor de fundo ao passar o mouse */
+    }
+    
+    
+}
